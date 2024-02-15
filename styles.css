@@ -1,0 +1,220 @@
+/*----------------------------------------------------------------------------
+    Generic
+----------------------------------------------------------------------------*/
+html {
+    box-sizing: border-box;
+ }
+ 
+ *, *:before, *:after {
+    box-sizing: inherit;
+ }
+ 
+ 
+ /*------------------------------------------------------------------------------
+    Element - Base
+ ------------------------------------------------------------------------------*/
+ 
+ .wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+ 
+ 
+ body {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+ }
+ 
+ 
+ /*------------------------------------------------------------------------------
+    Element - Typographie
+ ------------------------------------------------------------------------------*/
+ h1 {
+    font-size: 43px;
+    color: #000000;
+   
+ }
+ 
+ h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+ }
+ 
+ h3 {
+    font-size: 24px;
+    color: #000000;
+ }
+ 
+ 
+ 
+ /*------------------------------------------------------------------------------
+    Composantes / Modules
+ ------------------------------------------------------------------------------*/
+ 
+ /* header */
+ /*------------------ Header-------------------------------------- */
+ header {
+    background-color: #FFFFFF;
+    padding-top: 36px;
+    padding-bottom: 36px;
+ }
+ 
+ 
+ header .wrapper{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ /*------------------ Header-------------------------------------- */
+ 
+ 
+ /*------------------ Logo-------------------------------------- */
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+ 
+ /*------------------ Logo-------------------------------------- */
+ 
+ 
+ 
+ /*------------------ Menu-------------------------------------- */
+ 
+ .menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+ }
+ 
+ a{
+    text-decoration: none;   
+    padding: 10px 10px 4px 4px; 
+    color: #000000;
+    
+    
+    
+    
+ }
+ 
+ .button a:hover{
+ background-color: #0E5EA1;
+ color: #FFFFFF;
+ }
+ 
+ 
+ .menu a:hover{
+ 
+    background-color: #0E5EA1;
+    border-radius: 5px;
+    color: #FFFFFF;
+   
+    
+ }
+ /*------------------ Menu-------------------------------------- */
+ 
+ /*------------------ Section Hero-------------------------------------- */
+ 
+ .hero{
+ background-image: url(../images/montagnes-alpes.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:0 100%; 
+ 
+ 
+ }
+ .hero .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+ }
+ 
+ 
+ .boite{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+ }
+ 
+ .boite p{
+ 
+    color: #2FCB48;
+    text-align: center;
+ }
+ 
+ /*------------------ Section contenu------------------------------------- */
+ 
+ .contenu .wrapper{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ }
+ 
+ .contenu{
+ background-color: #E3E4E4;
+ 
+ 
+ }
+ /*------------------ Section article------------------------------------- */
+ 
+ 
+ article {
+   /* boite */
+    background-color: #FFFFFF;
+    width: 320px;
+    padding: 10px;
+    margin: 40px;
+    border-bottom: 5px solid #0E5EA1;
+    
+ }
+ 
+ /*------------------ Section button------------------------------------- */
+ 
+ 
+ .button {
+   
+    background-color: #B7B7B7;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+ 
+  /*.button a{
+ 
+       
+  }  */
+    
+ /*------------------ Section footer------------------------------------- */
+ 
+ 
+ 
+ 
+ .footer{
+  background-image: url(../images/escapade.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+    
+ 
+ footer{
+ background-color: #000000;
+ display: flex;
+ align-items: center;
+ }
+ footer p{
+ color: #FFFFFF;}
+ 
+ /* footer */
+ 
